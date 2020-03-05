@@ -11,7 +11,7 @@
 *.sln.docstates
 
 # Config file
-[Aa]pp.config
+App.config
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -353,4 +353,4 @@ healthchecksdb
 MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
-.ionide/
+.ionide/App.config

@@ -33,7 +33,7 @@ namespace SpeechToText.UI.ViewModels
         /// <summary>
         /// Dialog coordinator to show dialog messages.
         /// </summary>
-        private IDialogCoordinator _dialogCoordinator = DialogCoordinator.Instance;
+        private readonly IDialogCoordinator _dialogCoordinator = DialogCoordinator.Instance;
 
         #endregion
 
